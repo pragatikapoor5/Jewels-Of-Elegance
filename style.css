@@ -1,0 +1,386 @@
+/* styling for whole page  start*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling for whole page end  */
+/* ------------------------------------------- */
+/* styling for navbar start  */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px;
+}
+
+.navbar .tagline {
+    color: #ac8233;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    margin: 15px;
+}
+
+.navbar .nav_links li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar .nav_links li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 14px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.navbar .nav_links a:hover {
+    color: #ac8233;
+}
+
+/* styling for navbar end  */
+/* -------------------------------------------------------------- */
+/* styling for opening photo and shop-now-button start  */
+.opening-photo-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-photo-btn .shop-now-button {
+    position: absolute;
+    top: 830px;
+    left: 670px;
+}
+
+.opening-photo-btn .shop-now-button button {
+    width: 160px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    border: 0px;
+    background-color: #f78f10;
+    cursor: pointer;
+}
+
+.opening-photo-btn .shop-now-button button:hover {
+    box-shadow: 0px 0px 5px #ba7d1a;
+}
+
+/* styling for opening photo and shop-now-button end  */
+/* ------------------------------------------------------------ */
+/* styling for headings start  */
+.pieces-main-part{
+    background-color: #f8f8f8;
+}
+.heading-of-pieces {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+}
+
+.heading-of-pieces .h1 {
+    font-size: 40px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #a97d36;
+}
+
+.heading-of-pieces .h2 {
+    margin: 5px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* styling for headings end  */
+/* -------------------------------------- */
+/* styling for pieces - cards start  */
+.pieces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f8f8;
+    height: 500px;
+    z-index: 50;
+    margin-top: 1px;
+}
+
+.pieces img {
+    height: 280px;
+    width: 250px;
+}
+
+.pieces .piece-heading {
+    color: #a97d36;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 20px;
+    word-spacing: 0px;
+    margin: 0;
+
+}
+
+.pieces .firstpiece {
+    width: 290px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pieces .secondpiece {
+    width: 350px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pieces .thirdpiece {
+    width: 350px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pieces .description {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 370;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    word-spacing: 5px;
+    font-size: 15px;
+}
+
+.pieces .price {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 20px;
+    color: #b1883e;
+}
+
+.pieces .add-to-cart-btn {
+    background-color: #f78f10;
+    color: white;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    width: 83px;
+    height: 45px;
+    border: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.pieces .add-to-cart-btn:hover {
+    box-shadow: 0px 0px 5px #f78f10;
+}
+
+/* styling for pieces - cards end  */
+/* ------------------------------------------ */
+/* styling for parallax effect start  */
+.parallax-photo {
+    height: 700px;
+    background-image: url("Images/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1000;
+}
+
+.parallax-photo .opaque-bg {
+    height: 700px;
+    background-color: #f78f105b;
+    z-index: 1000;
+}
+
+/* styling for parallax effect end  */
+/* ------------------------------------- */
+/* styling for about us section start  */
+
+.about-us1 .about-us-heading {
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 40px;
+    color: #ba7d1a;
+    text-shadow: 0px 0px 5px #ba7d1a;
+    margin-top: 10px;
+}
+
+.about-us2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-us2 .about-us-paragraph {
+    align-items: left;
+    margin: 25px;
+}
+
+.about-us2 .about-us-paragraph p {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: justify;
+
+}
+
+.about-us2 .about-us-paragraph .p2 {
+    display: inline;
+}
+
+.about-us2 .about-us-paragraph .p3 {
+    display: inline;
+}
+
+.about-us2 .about-us-photo {
+    align-items: right;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+/* styling for about us sectionend  */
+/* ----------------------------------------  */
+/* styling for big label start  */
+.big-label {
+    height: 120px;
+    background-color: #ba7d1a;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-label .heading {
+    font-size: 35px;
+    color: white;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.big-label .comment {
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* styling for big label end  */
+/* --------------------------------  */
+/* styling for footer start  */
+.footer {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copy-rights {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.footer .contact-us {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #ba7d1a;
+}
+
+/* styling for footer end  */
+
+@media screen and (max-width: 576px){
+    .navbar{
+        width: 228vw;
+    }
+    .opening-photo-btn{
+        width: 228vw;
+    }
+    .opening-photo-btn .shop-now-button{
+        top: 830px;
+        left: 542px;
+    }
+    
+    .pieces-main-part{
+        width: 228vw;
+        height: 220vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .pieces{
+        flex-wrap: wrap;
+        width: 228vw;
+        height: 240vh;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .parallax-photo{
+        width: 228vw;
+    }
+
+    .about-us1{
+        width: 228vw;
+    }
+    .about-us2{
+        width: 228vw;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .about-us-photo{
+        width: 228vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
